@@ -10,9 +10,14 @@ public class ConcreteEmpenhoConcorrencia extends EmpenhoConcorrencia {
 
     @Override
     public void exibirDetalhes() {
-        System.out.println("Informações do Empenho emitido Concorrência: " + this.getNumero() +
-                           ", Nome do Fornecedor " + this.getNomeFornecedor() +
-                           ", Data da Emissão: " + this.getData() +
-                           ", Valor: " + this.getValor());
+        System.out.println("================================================================");
+        System.out.println("Informações do Empenho emitido para a modalidade de Concorrência:");
+        System.out.println("Número: " + this.getNumero());
+        System.out.println("Data da Emissão: " + this.getData());
+        System.out.println("Nome do Fornecedor: " + this.getNomeFornecedor());
+        System.out.println("Valor: " + this.getValor());
+        System.out.println("É concessão?: " + this.getEhConcessao());
+        System.out.println("================================================================");
+        System.out.println("");
     }
 }

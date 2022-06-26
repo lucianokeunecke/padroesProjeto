@@ -34,8 +34,11 @@ public abstract class EmpenhoConcorrencia {
         return valor;
     }
 
-    public Boolean getEhConcessao() {
-        return ehConcessao;
+    public String getEhConcessao() {
+        if (this.ehConcessao) {
+            return "Sim";
+        }
+        return "Não";
     }
 
     public abstract void exibirDetalhes();

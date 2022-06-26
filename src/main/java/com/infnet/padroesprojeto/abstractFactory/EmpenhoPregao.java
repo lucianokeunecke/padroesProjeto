@@ -34,5 +34,12 @@ public abstract class EmpenhoPregao {
         return valor;
     }
 
+    public String getEhMaiorDescontoTabelaPreco() {
+        if (this.ehMaiorDescontoTabelaPreco) {
+            return "Sim";
+        }
+        return "Não";
+    }
+
     public abstract void exibirDetalhes();
 }
