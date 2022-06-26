@@ -1,6 +1,6 @@
 package com.infnet.padroesprojeto.adapter;
 
-public class ProcessoLicitatorioTceRj extends ProcessoLicitatorio<ArquivoCsv> {
+public class ArquivoProcessoLicitatorioTceRj extends ArquivoProcessoLicitatorio<ArquivoCsv> {
     @Override
     public void exportar(ArquivoCsv arquivoCsv) {
         arquivoCsv.gerar();

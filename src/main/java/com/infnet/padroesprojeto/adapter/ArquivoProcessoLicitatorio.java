@@ -2,7 +2,7 @@ package com.infnet.padroesprojeto.adapter;
 
 import java.math.BigDecimal;
 
-public abstract class ProcessoLicitatorio<P> {
+public abstract class ArquivoProcessoLicitatorio<P> {
     private long numero;
     private long ano;
     private String objetoDaLicitacao;

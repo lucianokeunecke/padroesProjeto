@@ -1,9 +1,9 @@
 package com.infnet.padroesprojeto.adapter;
 
-public class ProcessoLicitatorioTceRjCsvToJsonAdapter extends ProcessoLicitatorioTceRj {
+public class ArquivoProcessoLicitatorioTceRjCsvToJsonAdapter extends ArquivoProcessoLicitatorioTceRj {
     ArquivoJson arquivoJson;
 
-    ProcessoLicitatorioTceRjCsvToJsonAdapter(ArquivoJson arquivoJson) {
+    ArquivoProcessoLicitatorioTceRjCsvToJsonAdapter(ArquivoJson arquivoJson) {
         this.arquivoJson = arquivoJson;
     }
     public void exportarParaJson() {

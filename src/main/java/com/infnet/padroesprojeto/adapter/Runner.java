@@ -4,7 +4,7 @@ public class Runner {
     public static void main(String[] args) {
         ArquivoJson arquivoJson = new ArquivoJson();
 
-        ProcessoLicitatorioTceRjCsvToJsonAdapter processoLicitatiorioAdapter = new ProcessoLicitatorioTceRjCsvToJsonAdapter(arquivoJson);
-        processoLicitatiorioAdapter.exportarParaJson();
+        ArquivoProcessoLicitatorioTceRjCsvToJsonAdapter processoLicitatiorioTceRjCsvToJsonAdapter = new ArquivoProcessoLicitatorioTceRjCsvToJsonAdapter(arquivoJson);
+        processoLicitatiorioTceRjCsvToJsonAdapter.exportarParaJson();
     }
 }
