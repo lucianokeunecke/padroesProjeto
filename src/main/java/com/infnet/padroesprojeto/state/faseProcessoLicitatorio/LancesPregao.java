@@ -1,4 +1,7 @@
-package com.infnet.padroesprojeto.state;
+package com.infnet.padroesprojeto.state.faseProcessoLicitatorio;
+
+import com.infnet.padroesprojeto.state.EstadoFaseProcessoLicitatorio;
+import com.infnet.padroesprojeto.state.FaseProcessoLicitatorio;
 
 public class LancesPregao implements EstadoFaseProcessoLicitatorio {
 

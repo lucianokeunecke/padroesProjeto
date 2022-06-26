@@ -1,5 +1,7 @@
 package com.infnet.padroesprojeto.state;
 
+import com.infnet.padroesprojeto.state.faseProcessoLicitatorio.HabilitacaoCredenciamento;
+
 public class FaseProcessoLicitatorio {
 
     private EstadoFaseProcessoLicitatorio estadoFaseProcessoLicitatorio = new HabilitacaoCredenciamento();
