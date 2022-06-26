@@ -12,6 +12,7 @@ public class LancesPregao implements EstadoFaseProcessoLicitatorio {
 
     @Override
     public void anterior(FaseProcessoLicitatorio faseProcessoLicitatorio) {
+        System.out.println("Fase dos Lances do Pregão removida.");
         faseProcessoLicitatorio.setEstadoFaseProcessoLicitatorio(new HabilitacaoCredenciamento());
     }
 

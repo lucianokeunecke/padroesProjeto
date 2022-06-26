@@ -12,6 +12,7 @@ public class Adjudicacao implements EstadoFaseProcessoLicitatorio {
 
     @Override
     public void anterior(FaseProcessoLicitatorio faseProcessoLicitatorio) {
+        System.out.println("Fase da Adjudicação removida.");
         faseProcessoLicitatorio.setEstadoFaseProcessoLicitatorio(new LancesPregao());
     }
 

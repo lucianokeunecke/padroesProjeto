@@ -12,6 +12,7 @@ public class CredenciamentoFornecedor implements EstadoFaseProcessoLicitatorio {
 
     @Override
     public void anterior(FaseProcessoLicitatorio faseProcessoLicitatorio) {
+        System.out.println("Fase do Credenciamento do Fornecedor removida.");
         faseProcessoLicitatorio.setEstadoFaseProcessoLicitatorio(new HabilitacaoCredenciamento());
     }
 
