@@ -16,7 +16,9 @@ public class Runner {
         faseProcessoLicitatorio.proximaFase();
         faseProcessoLicitatorio.getEstadoFaseProcessoLicitatorio().visualizar();
         faseProcessoLicitatorio.faseAnterior();
+        faseProcessoLicitatorio.getEstadoFaseProcessoLicitatorio().visualizar();
         faseProcessoLicitatorio.proximaFase();
         faseProcessoLicitatorio.getEstadoFaseProcessoLicitatorio().visualizar();
+        faseProcessoLicitatorio.proximaFase();
     }
 }
