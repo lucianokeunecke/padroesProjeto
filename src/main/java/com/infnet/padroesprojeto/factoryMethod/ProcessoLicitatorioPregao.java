@@ -6,6 +6,6 @@ public class ProcessoLicitatorioPregao extends ProcessoLicitatorio {
 
     @Override
     public Empenho emitirEmpenho(Long numero, String nomeFornecedor, LocalDate data, Double valor) {
-       return  new EmpenhoPregao(numero, nomeFornecedor, data, valor);
+       return new EmpenhoPregao(numero, nomeFornecedor, data, valor);
     }
 }
