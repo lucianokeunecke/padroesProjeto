@@ -9,9 +9,9 @@ public class Runner {
 
         Empenho empenho = new ConcreteEmpenho();
 
-        EmpenhoConcorrencia empenhoConcorrencia = empenho.emitirEmpenhoConcorrencia((long) 96856, "Lucas Simon", LocalDate.now(), 986.36);
+        EmpenhoConcorrencia empenhoConcorrencia = empenho.emitirEmpenhoConcorrencia((long) 96856, "Lucas Simon", LocalDate.now(), 986.36, true  );
 
-        EmpenhoPregao empenhoPregao = empenho.emitirEmpenhoPregao((long) 4563, "Lojas Americas", LocalDate.now(), 256.75);
+        EmpenhoPregao empenhoPregao = empenho.emitirEmpenhoPregao((long) 4563, "Lojas Americas", LocalDate.now(), 256.75, false );
 
         empenhoConcorrencia.exibirDetalhes();
 

@@ -8,12 +8,14 @@ public abstract class EmpenhoPregao {
     private String nomeFornecedor;
     private LocalDate data;
     private Double valor;
+    private Boolean ehMaiorDescontoTabelaPreco;
 
-    public EmpenhoPregao(Long numero, String nomeFornecedor, LocalDate data, Double valor) {
+    public EmpenhoPregao(Long numero, String nomeFornecedor, LocalDate data, Double valor, Boolean ehMaiorDescontoTabelaPreco) {
         this.numero = numero;
         this.nomeFornecedor = nomeFornecedor;
         this.data = data;
         this.valor = valor;
+        this.ehMaiorDescontoTabelaPreco = ehMaiorDescontoTabelaPreco;
     }
 
     public Long getNumero() {

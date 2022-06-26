@@ -4,8 +4,8 @@ import java.time.LocalDate;
 
 public class ConcreteEmpenhoPregao extends EmpenhoPregao {
 
-    public ConcreteEmpenhoPregao(Long numero, String nomeFornecedor, LocalDate data, Double valor) {
-        super(numero, nomeFornecedor, data, valor);
+    public ConcreteEmpenhoPregao(Long numero, String nomeFornecedor, LocalDate data, Double valor, Boolean ehMaiorDescontoTabelaPreco) {
+        super(numero, nomeFornecedor, data, valor, ehMaiorDescontoTabelaPreco);
     }
 
     @Override

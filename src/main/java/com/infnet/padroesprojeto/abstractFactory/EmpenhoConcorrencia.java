@@ -8,12 +8,14 @@ public abstract class EmpenhoConcorrencia {
     private String nomeFornecedor;
     private LocalDate data;
     private Double valor;
+    private Boolean ehConcessao;
 
-    public EmpenhoConcorrencia(Long numero, String nomeFornecedor, LocalDate data, Double valor) {
+    public EmpenhoConcorrencia(Long numero, String nomeFornecedor, LocalDate data, Double valor, Boolean ehConcessao) {
         this.numero = numero;
         this.nomeFornecedor = nomeFornecedor;
         this.data = data;
         this.valor = valor;
+        this.ehConcessao = ehConcessao;
     }
 
     public Long getNumero() {
@@ -30,6 +32,10 @@ public abstract class EmpenhoConcorrencia {
 
     public Double getValor() {
         return valor;
+    }
+
+    public Boolean getEhConcessao() {
+        return ehConcessao;
     }
 
     public abstract void exibirDetalhes();
